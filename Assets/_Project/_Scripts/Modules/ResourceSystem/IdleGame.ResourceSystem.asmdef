@@ -1,0 +1,21 @@
+{
+  "name": "IdleGame.ResourceSystem",
+  "rootNamespace": "",
+  "references": [
+    "GUID:651f35053f224fdda08a18f521878a8c",
+    "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+    "GUID:84651a3751eca9349aac36a66bba901b",
+    "GUID:9e24947de15b9834991c9d8411ea37cf",
+    "GUID:08b38f39e2d9e594389b7a4cf4c2c338",
+    "GUID:07f890a3aa18451a9f60774f6f0effd9"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

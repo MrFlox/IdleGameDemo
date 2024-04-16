@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b0fc812cf74d8f990456272bafbab0, type: 3}
+  m_Name: CollectorSettings
+  m_EditorClassIdentifier: 
+  PrefabReference:
+    m_AssetGUID: 802a987d3dffe6b4fbc715c612848950
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 1
+  MaxLoad: 1
+  CollectingSpeed: 4.91

@@ -1,0 +1,28 @@
+{
+    "name": "IdleGame.UI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d4d37aa238964b57826071bb8c516132",
+        "GUID:651f35053f224fdda08a18f521878a8c",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:08b38f39e2d9e594389b7a4cf4c2c338",
+        "GUID:07f890a3aa18451a9f60774f6f0effd9",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:b8a80a7fe5254b629636d24ec34e688b",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:86299016d70b3c54cbf131d19fcb595e",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:786ffa161ebf4f0091ca7cbe233d68dd",
+        "GUID:324caed91501a9c47a04ebfd87b68794"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

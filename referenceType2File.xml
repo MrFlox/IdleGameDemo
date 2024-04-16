@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>0e4d2cf2d417d2a42ad8b1a47a0a4414</guid>
+    <fileName>Assets/Plugins/Editor/unity-sweeper-main/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-01-18T12:22:19.6967874+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c9678b01db570f744876ffc5dbf1cbff</guid>
+    <fileName>Assets/Plugins/Editor/unity-sweeper-main/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-01-18T12:22:19.7158882+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>432438d1f108de54a8cfcda787208ce0</guid>
+    <fileName>Assets/Plugins/Editor/unity-sweeper-main/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-01-18T12:22:19.7339618+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a7c507c6115292d4ebf96bbae765b68c</guid>
+    <fileName>Assets/Plugins/Editor/unity-sweeper-main/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-01-18T12:22:19.7510518+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4c68e3d6f533dd4419570fd7805e241d</guid>
+    <fileName>Assets/Plugins/Editor/unity-sweeper-main/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-01-18T12:22:19.767139+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eedb5b139f520004b81ccfec6632a887</guid>
+    <fileName>Assets/Plugins/Editor/unity-sweeper-main/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-01-18T12:22:19.7827368+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fcf7219bab7fe46a1ad266029b2fee19</guid>
+    <fileName>Assets/WineIncAssets/TutorialInfo/Scripts/Readme.cs</fileName>
+    <timeStamp>2022-12-12T12:51:53+03:00</timeStamp>
+    <typeFullName>
+      <string>Readme</string>
+      <string>Readme+Section</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>476cc7d7cd9874016adc216baab94a0a</guid>
+    <fileName>Assets/WineIncAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs</fileName>
+    <timeStamp>2022-12-12T12:51:53+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
