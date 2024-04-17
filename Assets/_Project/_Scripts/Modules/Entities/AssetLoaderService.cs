@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -9,7 +8,7 @@ using VContainer.Unity;
 
 namespace Modules.Entities
 {
-    public class AssetLoaderService
+    public sealed class AssetLoaderService
     {
         private readonly IObjectResolver _container;
         public AssetLoaderService(IObjectResolver container) => _container = container;
@@ -61,6 +60,7 @@ namespace Modules.Entities
             await handle.Task;
             return handle.Result;
         }
+        
         public async UniTask<GameObject> Load(AssetReferenceGameObject reference)
         {
             var handle = Addressables.LoadAssetAsync<GameObject>(reference);

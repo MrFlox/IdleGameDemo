@@ -1,7 +1,6 @@
 ﻿using Constants.WindowsSettings;
 using Cysharp.Threading.Tasks;
 using Modules.UI.Windows.UnitShop;
-using UnityEngine.AddressableAssets;
 
 namespace Modules.UI
 {

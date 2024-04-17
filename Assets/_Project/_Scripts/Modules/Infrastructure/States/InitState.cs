@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Modules.Entities;
 using Modules.Entities.Collector.Services;
@@ -54,7 +53,6 @@ namespace Modules.Infrastructure.States
             var generator = _factory.CreateGenerator();
             generator.Init(_generatorsService.GetFreePosition(value));
             _generatorsService.AddGenerator(generator);
-            // generator.generationProcess.OnEnd += OnGeneraterReadyToCollectHandler;
             generator.StartGrow();
         }
 

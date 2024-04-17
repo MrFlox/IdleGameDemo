@@ -5,9 +5,9 @@ using UnityEngine;
 
 namespace Modules.UI
 {
-    public class FlyController : MonoBehaviour
+    public class FlyingText : MonoBehaviour
     {
-        public event Action<FlyController> OnComplete;
+        public event Action<FlyingText> OnComplete;
 
         private const float FlyingTime = 3f;
         [SerializeField] private TMP_Text text;
@@ -23,6 +23,7 @@ namespace Modules.UI
             }
             OnComplete?.Invoke(this);
         }
+        
         public void SetText(int moneyPerTick) => text.text = "+" + moneyPerTick;
     }
 }

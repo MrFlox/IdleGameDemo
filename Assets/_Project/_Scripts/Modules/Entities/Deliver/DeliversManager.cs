@@ -6,7 +6,7 @@ using TriInspector;
 
 namespace Modules.Entities.Deliver
 {
-    public class DeliversManager : AbstractUnitManager<DeliverParking, Deliver>
+    public sealed class DeliversManager : AbstractUnitManager<DeliverParking, Deliver>
     {
         protected override void Start()
         {

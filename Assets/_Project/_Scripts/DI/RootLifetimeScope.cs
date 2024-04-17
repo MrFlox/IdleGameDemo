@@ -70,7 +70,7 @@ namespace DI
             builder.Register<IResourcesService, ResourcesService>(Lifetime.Singleton);
             builder.Register<ISceneLoader, SceneLoader>(Lifetime.Singleton);
             builder.Register<IFactory, Factory>(Lifetime.Singleton);
-            builder.Register<IAbstractFactory<FlyController>, AbstractFactory<FlyController>>(Lifetime.Singleton);
+            builder.Register<IAbstractFactory<FlyingText>, AbstractFactory<FlyingText>>(Lifetime.Singleton);
             builder.Register<IGeneratorsService, GeneratorsService>(Lifetime.Singleton);
             builder.Register<ICollectorsService, CollectorsService>(Lifetime.Singleton);
         }

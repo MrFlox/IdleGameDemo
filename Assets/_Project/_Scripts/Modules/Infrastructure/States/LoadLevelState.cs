@@ -26,9 +26,8 @@ namespace Modules.Infrastructure.States
             var handle = Addressables.LoadSceneAsync(LevelAddress);
             while (!handle.IsDone)
             {
-                // Debug.Log($"Loading: {handle.PercentComplete * 100:0.0}%");
                 _loadingSignal.Publish(LoadingSignal.Progress, handle.PercentComplete);
-                await UniTask.Yield(); // Эффективная замена yield return null в корутинах
+                await UniTask.Yield(); 
             }
 
             if (handle.Status == AsyncOperationStatus.Succeeded)

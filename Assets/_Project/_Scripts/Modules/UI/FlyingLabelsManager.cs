@@ -13,12 +13,12 @@ namespace Modules.UI
         private readonly ISubscriber<FlyingTextSignal> _subscriber;
         private readonly AssetLoaderService _assetLoaderService;
         private const string LabelID = "UI/Components/FlyingText.prefab";
-        private IAbstractFactory<FlyController> _labelFactory;
+        private IAbstractFactory<FlyingText> _labelFactory;
 
         public FlyingLabelsManager(
             ISubscriber<FlyingTextSignal> subscriber,
             AssetLoaderService assetLoaderService,
-            IAbstractFactory<FlyController> labelFactory
+            IAbstractFactory<FlyingText> labelFactory
         )
         {
             _subscriber = subscriber;
@@ -35,8 +35,8 @@ namespace Modules.UI
         private async UniTask InitFactory()
         {
             var flyingTextPrefab = await _assetLoaderService.LoadAssetReference(LabelID);
-            var flyLabel = flyingTextPrefab.GetComponent<FlyController>();
-            _labelFactory.Init(new List<FlyController> { flyLabel });
+            var flyLabel = flyingTextPrefab.GetComponent<FlyingText>();
+            _labelFactory.Init(new List<FlyingText> { flyLabel });
         }
 
         private void Handle(FlyingTextSignal signal) => HandleFlyingText(signal);
@@ -49,10 +49,10 @@ namespace Modules.UI
             flyingText.OnComplete += HandleFlyingTextOnComplete;
         }
 
-        private void HandleFlyingTextOnComplete(FlyController flyController)
+        private void HandleFlyingTextOnComplete(FlyingText flyingText)
         {
-            flyController.OnComplete -= HandleFlyingTextOnComplete;
-            _labelFactory.Release(flyController);
+            flyingText.OnComplete -= HandleFlyingTextOnComplete;
+            _labelFactory.Release(flyingText);
         }
     }
 }

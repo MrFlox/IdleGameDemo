@@ -5,9 +5,8 @@ using TriInspector;
 
 namespace Modules.Entities.Converter
 {
-    public class ConverterManager : AbstractUnitManager<ConverterSpawner, Converter>
+    public sealed class ConverterManager : AbstractUnitManager<ConverterSpawner, Converter>
     {
-
         protected override void Start()
         {
             base.Start();

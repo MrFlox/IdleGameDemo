@@ -28,7 +28,6 @@ namespace DI
             _factory = factory;
             _generatorsService = generatorsService;
             _collectorsService = collectorsService;
-
         }
 
         public void Start()
@@ -36,9 +35,8 @@ namespace DI
             QualitySettings.vSyncCount = 0;
             Application.targetFrameRate = 60;
 
-            _stateMachine = new StateMachine(_generatorsService, _collectorsService, _factory, _sceneLoader,
-                _loadingSignal);
-            _stateMachine.SetState(StateMachine.States.BootStrap);
+            _stateMachine = new StateMachine(_generatorsService, _collectorsService, _factory, _loadingSignal);
+            _stateMachine.SetState(StateMachine.States.LoadLevel);
         }
     }
 }
