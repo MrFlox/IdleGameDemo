@@ -1,3 +1,6 @@
+![image](https://github.com/MrFlox/IdleGameDemo/assets/7479866/73c26acf-0b95-4154-98be-f046880e95f9)
+----
+
 ## Основная сцена - `Root`
 
 
