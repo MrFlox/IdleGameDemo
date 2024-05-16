@@ -41,6 +41,7 @@ namespace Modules.Entities.Collector
         [Inject]
         public void Construct(IGeneratorsService generatorsService) =>
             _generatorsService = generatorsService;
+        
         public void Init(CollectorSettingsSo settings)
         {
             model = new CollectorModel(settings);
@@ -49,6 +50,7 @@ namespace Modules.Entities.Collector
             _entityName = name;
             _moving = GetComponent<MovingObject>();
         }
+        
         public override void ChangeState() => name = _entityName + "> " + _state;
 
         public void SetField(Field newField) => _field = newField;
